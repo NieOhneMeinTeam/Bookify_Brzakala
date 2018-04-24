@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reservations</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Modal Trigger -->
+  <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+
+        <div class="card-panel red">Reservierung</div>
+      <!-- inhalt -->
+      <div class="row">
+         <form class="col s12">
+           <div class="row">
+             <div class="input-field col s6">
+               <i class="material-icons prefix">account_circle</i>
+               <input type="text" class="datepicker">
+               <label for="icon_prefix">Datum</label>
+             </div>
+             <div class="input-field col s6">
+               <i class="material-icons prefix">phone</i>
+               <input type="text" class="timepicker">
+               <label for="icon_telephone">Telephone</label>
+             </div>
+           </div>
+         </form>
+       </div>
+
+        <h6>Personen</h6>
+        <form action="#">
+          <p class="range-field">
+            <input type="range" id="test5" min="1" max="8" />
+          </p>
+        </form>
+
+
+
+        <!-- inhalt aus -->
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="myjava.js"></script>
+</body>
+
+</html>
